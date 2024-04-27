@@ -60,9 +60,9 @@ public class App
         System.out.println("All functions of modules:");
         for (int i = 0; i < allAppModules.size(); i++)
         {
-            System.out.println(Integer.valueOf(i).toString() + " " + allAppModules.get(i).GetDescription());
+            System.out.println(i + " " + allAppModules.get(i).GetDescription());
         }
-
+        //Integer.valueOf(i).toString()
         System.out.print("Enter needed function:");
         allAppModules.get(scanner.nextInt()).Execute(filePath);
         main2(args);

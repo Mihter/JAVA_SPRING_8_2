@@ -19,7 +19,7 @@ public class DirFileAndSubdirCounter implements AppModuleContract
     @Override
     public String GetDescription()
     {
-        return null;
+        return "Files and Directories";
     }
 
     @Override
@@ -35,7 +35,7 @@ public class DirFileAndSubdirCounter implements AppModuleContract
                     fls++;
                 else
                     dirs++;
-        System.out.printf("There are files - " +fls  );
-        System.out.printf("There are directories - " + dirs);
+        System.out.printf("There are files - " +fls+"\n"  );
+        System.out.printf("There are directories - " + dirs+"\n");
     }
 }

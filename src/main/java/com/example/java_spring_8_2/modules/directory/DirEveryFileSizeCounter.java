@@ -20,7 +20,7 @@ public class DirEveryFileSizeCounter implements AppModuleContract
     @Override
     public String GetDescription()
     {
-        return null;
+        return "Get size";
     }
 
     @Override
